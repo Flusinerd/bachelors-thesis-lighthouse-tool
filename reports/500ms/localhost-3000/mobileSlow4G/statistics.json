@@ -1,0 +1,230 @@
+{
+  "first-contentful-paint": {
+    "average": 1017.3267675377398,
+    "median": 1013.1923044819381,
+    "standardDeviation": 640.0495836916912,
+    "minMax": {
+      "min": 366.1767089638761,
+      "max": 1660.2079
+    },
+    "spread": 1294.031191036124,
+    "empiricalVariance": 639.871206044816,
+    "variationCoefficient": 62.91484743302473
+  },
+  "largest-contentful-paint": {
+    "average": 1165.9901513066097,
+    "median": 1159.788456722907,
+    "standardDeviation": 720.1635496271132,
+    "minMax": {
+      "min": 429.2650634458141,
+      "max": 1890.31185
+    },
+    "spread": 1461.046786554186,
+    "empiricalVariance": 719.8068090672239,
+    "variationCoefficient": 61.76411943274967
+  },
+  "first-meaningful-paint": {
+    "average": 1017.3267675377398,
+    "median": 1013.1923044819381,
+    "standardDeviation": 640.0495836916912,
+    "minMax": {
+      "min": 366.1767089638761,
+      "max": 1660.2079
+    },
+    "spread": 1294.031191036124,
+    "empiricalVariance": 639.871206044816,
+    "variationCoefficient": 62.91484743302473
+  },
+  "speed-index": {
+    "average": 1174.4849913097164,
+    "median": 1167.6522941542216,
+    "standardDeviation": 603.3758379503925,
+    "minMax": {
+      "min": 517.5346157936857,
+      "max": 1817.7699725147577
+    },
+    "spread": 1300.235356721072,
+    "empiricalVariance": 597.030816676882,
+    "variationCoefficient": 51.373652487252585
+  },
+  "max-potential-fid": {
+    "average": 69.1,
+    "median": 97.5,
+    "standardDeviation": 56.454317815380605,
+    "minMax": {
+      "min": 16,
+      "max": 172
+    },
+    "spread": 156,
+    "empiricalVariance": 49.9,
+    "variationCoefficient": 81.69944691082578
+  },
+  "cumulative-layout-shift": {
+    "average": 0.00010669515301589495,
+    "median": 0.00010669515301589495,
+    "standardDeviation": 0,
+    "minMax": {
+      "min": 0.00010669515301589495,
+      "max": 0.00010669515301589495
+    },
+    "spread": 0,
+    "empiricalVariance": 0,
+    "variationCoefficient": 0
+  },
+  "server-response-time": {
+    "average": 520.6544,
+    "median": 507.37300000000005,
+    "standardDeviation": 34.99663624750243,
+    "minMax": {
+      "min": 505.83299999999997,
+      "max": 624.806
+    },
+    "spread": 118.97300000000007,
+    "empiricalVariance": 20.968040000000002,
+    "variationCoefficient": 6.72166340042501
+  },
+  "interactive": {
+    "average": 1073.3013565550311,
+    "median": 1092.283294801404,
+    "standardDeviation": 696.6344939359975,
+    "minMax": {
+      "min": 366.1767089638761,
+      "max": 1818.389880638932
+    },
+    "spread": 1452.213171675056,
+    "empiricalVariance": 695.8457950621073,
+    "variationCoefficient": 64.90576851332612
+  },
+  "mainthread-work-breakdown": {
+    "average": 320.88210000000015,
+    "median": 302.4820000000002,
+    "standardDeviation": 200.08129319726532,
+    "minMax": {
+      "min": 113.6300000000001,
+      "max": 575.8840000000006
+    },
+    "spread": 462.2540000000005,
+    "empiricalVariance": 197.6035000000001,
+    "variationCoefficient": 62.35352274161294
+  },
+  "bootup-time": {
+    "average": 34.950100000000006,
+    "median": 41.18199999999999,
+    "standardDeviation": 33.819087883767665,
+    "minMax": {
+      "min": 5.626,
+      "max": 118.82800000000003
+    },
+    "spread": 113.20200000000003,
+    "empiricalVariance": 26.155120000000004,
+    "variationCoefficient": 96.76392308968403
+  },
+  "network-rtt": {
+    "average": 31.36086623113011,
+    "median": 0.08724626758518544,
+    "standardDeviation": 93.81905011724525,
+    "minMax": {
+      "min": 0.051119361068021715,
+      "max": 312.81800000000004
+    },
+    "spread": 312.76688063893204,
+    "empiricalVariance": 56.29142675377399,
+    "variationCoefficient": 299.15962596759056
+  },
+  "metrics": {
+    "average": 1073.1,
+    "median": 1092,
+    "standardDeviation": 696.6852158615109,
+    "minMax": {
+      "min": 366,
+      "max": 1818
+    },
+    "spread": 1452,
+    "empiricalVariance": 695.9000000000002,
+    "variationCoefficient": 64.92267410879796
+  },
+  "uses-long-cache-ttl": {
+    "average": 8467,
+    "median": 8467,
+    "standardDeviation": 0,
+    "minMax": {
+      "min": 8467,
+      "max": 8467
+    },
+    "spread": 0,
+    "empiricalVariance": 0,
+    "variationCoefficient": 0
+  },
+  "total-byte-weight": {
+    "average": 205324.8,
+    "median": 205318,
+    "standardDeviation": 20.4,
+    "minMax": {
+      "min": 205318,
+      "max": 205386
+    },
+    "spread": 68,
+    "empiricalVariance": 12.239999999990687,
+    "variationCoefficient": 0.009935477838040023
+  },
+  "render-blocking-resources": {
+    "average": 22,
+    "median": 22,
+    "standardDeviation": 0,
+    "minMax": {
+      "min": 22,
+      "max": 22
+    },
+    "spread": 0,
+    "empiricalVariance": 0,
+    "variationCoefficient": 0
+  },
+  "uses-text-compression": {
+    "average": 340,
+    "median": 340,
+    "standardDeviation": 260,
+    "minMax": {
+      "min": 80,
+      "max": 600
+    },
+    "spread": 520,
+    "empiricalVariance": 260,
+    "variationCoefficient": 76.47058823529412
+  },
+  "dom-size": {
+    "average": 3018,
+    "median": 3018,
+    "standardDeviation": 0,
+    "minMax": {
+      "min": 3018,
+      "max": 3018
+    },
+    "spread": 0,
+    "empiricalVariance": 0,
+    "variationCoefficient": 0
+  },
+  "network-server-latency": {
+    "average": 3.514870854299882,
+    "median": 3.3898806389319787,
+    "standardDeviation": 0.7614756112089082,
+    "minMax": {
+      "min": 2.48164825860471,
+      "max": 5.103949999999999
+    },
+    "spread": 2.6223017413952894,
+    "empiricalVariance": 0.6086053439178,
+    "variationCoefficient": 21.664398004193085
+  },
+  "total-blocking-time": {
+    "average": 17.67920999999999,
+    "median": 25.5,
+    "standardDeviation": 12.271266230361078,
+    "minMax": {
+      "min": 1.5,
+      "max": 33.89605000000006
+    },
+    "spread": 32.39605000000006,
+    "empiricalVariance": 11.343367999999991,
+    "variationCoefficient": 69.4107159220411
+  }
+}

@@ -1,0 +1,230 @@
+{
+  "first-contentful-paint": {
+    "average": 1880.4301410231317,
+    "median": 3605.752502737855,
+    "standardDeviation": 1327.7818951804443,
+    "minMax": {
+      "min": 366.1767089638761,
+      "max": 3609.8198055044304
+    },
+    "spread": 3243.6430965405543,
+    "empericalVariance": 1150.8044979805225,
+    "variationCoefficient": 70.61054097218445
+  },
+  "largest-contentful-paint": {
+    "average": 2130.6452115346974,
+    "median": 4058.6287541067827,
+    "standardDeviation": 1485.5564123343147,
+    "minMax": {
+      "min": 429.2650634458141,
+      "max": 4064.7297082566456
+    },
+    "spread": 3635.4646448108315,
+    "empericalVariance": 1286.2067469707836,
+    "variationCoefficient": 69.7233121822414
+  },
+  "first-meaningful-paint": {
+    "average": 1880.4301410231317,
+    "median": 3605.752502737855,
+    "standardDeviation": 1327.7818951804443,
+    "minMax": {
+      "min": 366.1767089638761,
+      "max": 3609.8198055044304
+    },
+    "spread": 3243.6430965405543,
+    "empericalVariance": 1150.8044979805225,
+    "variationCoefficient": 70.61054097218445
+  },
+  "speed-index": {
+    "average": 2117.9525637101115,
+    "median": 3991.808337122,
+    "standardDeviation": 1422.3916151609167,
+    "minMax": {
+      "min": 517.5346157936857,
+      "max": 4056.682555483152
+    },
+    "spread": 3539.1479396894665,
+    "empericalVariance": 1257.9567632005273,
+    "variationCoefficient": 67.1588041929159
+  },
+  "max-potential-fid": {
+    "average": 60.2,
+    "median": 40,
+    "standardDeviation": 47.86258106983645,
+    "minMax": {
+      "min": 16,
+      "max": 172
+    },
+    "spread": 156,
+    "empericalVariance": 39.19999999999998,
+    "variationCoefficient": 79.50594862099078
+  },
+  "cumulative-layout-shift": {
+    "average": 0.00010669515301589495,
+    "median": 0.00010669515301589495,
+    "standardDeviation": 0,
+    "minMax": {
+      "min": 0.00010669515301589495,
+      "max": 0.00010669515301589495
+    },
+    "spread": 0,
+    "empericalVariance": 0,
+    "variationCoefficient": 0
+  },
+  "server-response-time": {
+    "average": 515.8482666666666,
+    "median": 506.54200000000003,
+    "standardDeviation": 29.373334672718997,
+    "minMax": {
+      "min": 505.829,
+      "max": 624.806
+    },
+    "spread": 118.97700000000003,
+    "empericalVariance": 15.26032888888886,
+    "variationCoefficient": 5.694181132472352
+  },
+  "interactive": {
+    "average": 1919.4798670346593,
+    "median": 3606.667440531699,
+    "standardDeviation": 1324.9917449641357,
+    "minMax": {
+      "min": 366.1767089638761,
+      "max": 3631.752502737855
+    },
+    "spread": 3265.575793773979,
+    "empericalVariance": 1128.2380139728375,
+    "variationCoefficient": 69.02868676664328
+  },
+  "mainthread-work-breakdown": {
+    "average": 380.2094000000003,
+    "median": 471.06800000000015,
+    "standardDeviation": 184.6221485032968,
+    "minMax": {
+      "min": 113.6300000000001,
+      "max": 575.8840000000006
+    },
+    "spread": 462.2540000000005,
+    "empericalVariance": 171.28720000000007,
+    "variationCoefficient": 48.55801789837301
+  },
+  "bootup-time": {
+    "average": 39.355000000000004,
+    "median": 27.94,
+    "standardDeviation": 33.858298860594495,
+    "minMax": {
+      "min": 5.626,
+      "max": 118.82800000000003
+    },
+    "spread": 113.20200000000003,
+    "empericalVariance": 26.996933333333338,
+    "variationCoefficient": 86.03302975630668
+  },
+  "network-rtt": {
+    "average": 20.92782948843419,
+    "median": 0.06564551806198461,
+    "standardDeviation": 78.01093486339319,
+    "minMax": {
+      "min": 0.051119361068021715,
+      "max": 312.81800000000004
+    },
+    "spread": 312.76688063893204,
+    "empericalVariance": 38.91868940154212,
+    "variationCoefficient": 372.7617090272361
+  },
+  "metrics": {
+    "average": 1919.4,
+    "median": 3607,
+    "standardDeviation": 1325.1648350299672,
+    "minMax": {
+      "min": 366,
+      "max": 3632
+    },
+    "spread": 3266,
+    "empericalVariance": 1128.4,
+    "variationCoefficient": 69.04057700479144
+  },
+  "uses-long-cache-ttl": {
+    "average": 8467,
+    "median": 8467,
+    "standardDeviation": 0,
+    "minMax": {
+      "min": 8467,
+      "max": 8467
+    },
+    "spread": 0,
+    "empericalVariance": 0,
+    "variationCoefficient": 0
+  },
+  "total-byte-weight": {
+    "average": 205322.53333333333,
+    "median": 205318,
+    "standardDeviation": 16.9621801533752,
+    "minMax": {
+      "min": 205318,
+      "max": 205386
+    },
+    "spread": 68,
+    "empericalVariance": 8.462222222215496,
+    "variationCoefficient": 0.008261236542332032
+  },
+  "render-blocking-resources": {
+    "average": 22,
+    "median": 22,
+    "standardDeviation": 0,
+    "minMax": {
+      "min": 22,
+      "max": 22
+    },
+    "spread": 0,
+    "empericalVariance": 0,
+    "variationCoefficient": 0
+  },
+  "uses-text-compression": {
+    "average": 726.6666666666666,
+    "median": 600,
+    "standardDeviation": 586.590904198905,
+    "minMax": {
+      "min": 80,
+      "max": 1500
+    },
+    "spread": 1420,
+    "empericalVariance": 515.5555555555558,
+    "variationCoefficient": 80.72351892645483
+  },
+  "dom-size": {
+    "average": 3018,
+    "median": 3018,
+    "standardDeviation": 0,
+    "minMax": {
+      "min": 3018,
+      "max": 3018
+    },
+    "spread": 0,
+    "empericalVariance": 0,
+    "variationCoefficient": 0
+  },
+  "network-server-latency": {
+    "average": 3.444718405249081,
+    "median": 3.2409810256955573,
+    "standardDeviation": 0.7916138256136647,
+    "minMax": {
+      "min": 2.48164825860471,
+      "max": 5.103949999999999
+    },
+    "spread": 2.6223017413952894,
+    "empericalVariance": 0.6406454558285002,
+    "variationCoefficient": 22.980509071725557
+  },
+  "total-blocking-time": {
+    "average": 14.899341666666658,
+    "median": 23.749999999999943,
+    "standardDeviation": 12.81112740941824,
+    "minMax": {
+      "min": 1,
+      "max": 33.89605000000006
+    },
+    "spread": 32.89605000000006,
+    "empericalVariance": 12.232674999999992,
+    "variationCoefficient": 85.98451996090374
+  }
+}

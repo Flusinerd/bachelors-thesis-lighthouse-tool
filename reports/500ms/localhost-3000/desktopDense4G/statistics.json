@@ -1,0 +1,218 @@
+{
+  "first-contentful-paint": {
+    "average": 377.4555614929237,
+    "median": 367.3641149296593,
+    "standardDeviation": 21.278653776808195,
+    "minMax": {
+      "min": 366.1767089638761,
+      "max": 420
+    },
+    "spread": 53.82329103612392,
+    "empiricalVariance": 17.017775402830477,
+    "variationCoefficient": 5.637393099374723
+  },
+  "largest-contentful-paint": {
+    "average": 446.18334223938564,
+    "median": 431.04617239448896,
+    "standardDeviation": 31.91798066521229,
+    "minMax": {
+      "min": 429.2650634458141,
+      "max": 510
+    },
+    "spread": 80.73493655418588,
+    "empiricalVariance": 25.526663104245745,
+    "variationCoefficient": 7.153557213726662
+  },
+  "first-meaningful-paint": {
+    "average": 377.4555614929237,
+    "median": 367.3641149296593,
+    "standardDeviation": 21.278653776808195,
+    "minMax": {
+      "min": 366.1767089638761,
+      "max": 420
+    },
+    "spread": 53.82329103612392,
+    "empiricalVariance": 17.017775402830477,
+    "variationCoefficient": 5.637393099374723
+  },
+  "speed-index": {
+    "average": 577.4541746328345,
+    "median": 519.9691551109102,
+    "standardDeviation": 115.02532658510653,
+    "minMax": {
+      "min": 517.5346157936857,
+      "max": 807.4831539315915
+    },
+    "spread": 289.94853813790576,
+    "empiricalVariance": 92.01159171950276,
+    "variationCoefficient": 19.919386098168513
+  },
+  "max-potential-fid": {
+    "average": 19.2,
+    "median": 16,
+    "standardDeviation": 3.9698866482558417,
+    "minMax": {
+      "min": 16,
+      "max": 25
+    },
+    "spread": 9,
+    "empiricalVariance": 3.84,
+    "variationCoefficient": 20.676492959665843
+  },
+  "cumulative-layout-shift": {
+    "average": 0.00010669515301589495,
+    "median": 0.00010669515301589495,
+    "standardDeviation": 0,
+    "minMax": {
+      "min": 0.00010669515301589495,
+      "max": 0.00010669515301589495
+    },
+    "spread": 0,
+    "empiricalVariance": 0,
+    "variationCoefficient": 0
+  },
+  "server-response-time": {
+    "average": 530.9462000000001,
+    "median": 507.95700000000005,
+    "standardDeviation": 46.94755012734957,
+    "minMax": {
+      "min": 505.83299999999997,
+      "max": 624.806
+    },
+    "spread": 118.97300000000007,
+    "empiricalVariance": 37.54392000000005,
+    "variationCoefficient": 8.842242420672672
+  },
+  "interactive": {
+    "average": 377.4555614929237,
+    "median": 367.3641149296593,
+    "standardDeviation": 21.278653776808195,
+    "minMax": {
+      "min": 366.1767089638761,
+      "max": 420
+    },
+    "spread": 53.82329103612392,
+    "empiricalVariance": 17.017775402830477,
+    "variationCoefficient": 5.637393099374723
+  },
+  "mainthread-work-breakdown": {
+    "average": 123.2786000000001,
+    "median": 115.86899999999994,
+    "standardDeviation": 10.998271984271058,
+    "minMax": {
+      "min": 113.6300000000001,
+      "max": 141.24800000000025
+    },
+    "spread": 27.61800000000015,
+    "empiricalVariance": 10.273520000000067,
+    "variationCoefficient": 8.9214770319188
+  },
+  "bootup-time": {
+    "average": 11.413800000000002,
+    "median": 5.626,
+    "standardDeviation": 6.066069185230255,
+    "minMax": {
+      "min": 5.626,
+      "max": 20.541000000000015
+    },
+    "spread": 14.915000000000013,
+    "empiricalVariance": 5.778160000000003,
+    "variationCoefficient": 53.14679760667135
+  },
+  "network-rtt": {
+    "average": 62.64751925353814,
+    "median": 0.09375,
+    "standardDeviation": 125.08524576744723,
+    "minMax": {
+      "min": 0.06564551806198461,
+      "max": 312.81800000000004
+    },
+    "spread": 312.752354481938,
+    "empiricalVariance": 100.06819229858476,
+    "variationCoefficient": 199.66512203175995
+  },
+  "metrics": {
+    "average": 377.2,
+    "median": 367,
+    "standardDeviation": 21.40467238712146,
+    "minMax": {
+      "min": 366,
+      "max": 420
+    },
+    "spread": 54,
+    "empiricalVariance": 17.119999999999994,
+    "variationCoefficient": 5.674621523627111
+  },
+  "uses-long-cache-ttl": {
+    "average": 8467,
+    "median": 8467,
+    "standardDeviation": 0,
+    "minMax": {
+      "min": 8467,
+      "max": 8467
+    },
+    "spread": 0,
+    "empiricalVariance": 0,
+    "variationCoefficient": 0
+  },
+  "total-byte-weight": {
+    "average": 205331.6,
+    "median": 205318,
+    "standardDeviation": 27.2,
+    "minMax": {
+      "min": 205318,
+      "max": 205386
+    },
+    "spread": 68,
+    "empiricalVariance": 21.760000000003494,
+    "variationCoefficient": 0.013246865070938911
+  },
+  "render-blocking-resources": {
+    "average": 22,
+    "median": 22,
+    "standardDeviation": 0,
+    "minMax": {
+      "min": 22,
+      "max": 22
+    },
+    "spread": 0,
+    "empiricalVariance": 0,
+    "variationCoefficient": 0
+  },
+  "uses-text-compression": {
+    "average": 80,
+    "median": 80,
+    "standardDeviation": 0,
+    "minMax": {
+      "min": 80,
+      "max": 80
+    },
+    "spread": 0,
+    "empiricalVariance": 0,
+    "variationCoefficient": 0
+  },
+  "dom-size": {
+    "average": 3018,
+    "median": 3018,
+    "standardDeviation": 0,
+    "minMax": {
+      "min": 3018,
+      "max": 3018
+    },
+    "spread": 0,
+    "empiricalVariance": 0,
+    "variationCoefficient": 0
+  },
+  "network-server-latency": {
+    "average": 3.4097259330773353,
+    "median": 3.415149625185663,
+    "standardDeviation": 0.29250778978711595,
+    "minMax": {
+      "min": 3.088354481938015,
+      "max": 3.72025
+    },
+    "spread": 0.631895518061985,
+    "empiricalVariance": 0.2914277993374794,
+    "variationCoefficient": 8.578630527149809
+  }
+}

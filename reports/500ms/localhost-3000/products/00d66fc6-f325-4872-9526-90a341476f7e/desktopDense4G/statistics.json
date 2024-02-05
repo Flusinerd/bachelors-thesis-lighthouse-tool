@@ -1,0 +1,242 @@
+{
+  "first-contentful-paint": {
+    "average": 234.0374,
+    "median": 236.6298,
+    "standardDeviation": 9.015688861756486,
+    "minMax": {
+      "min": 220.2147,
+      "max": 244.1658
+    },
+    "spread": 23.951099999999997,
+    "empericalVariance": 8.212959999999999,
+    "variationCoefficient": 3.852242787587149
+  },
+  "largest-contentful-paint": {
+    "average": 5397.897655000001,
+    "median": 5404.102150000001,
+    "standardDeviation": 16.640300110578128,
+    "minMax": {
+      "min": 5370.53675,
+      "max": 5415.540150000001
+    },
+    "spread": 45.00340000000051,
+    "empericalVariance": 14.974034000000211,
+    "variationCoefficient": 0.3082737238481067
+  },
+  "first-meaningful-paint": {
+    "average": 263.35954000000004,
+    "median": 275.161025,
+    "standardDeviation": 20.613360780659963,
+    "minMax": {
+      "min": 236.6298,
+      "max": 286.37435
+    },
+    "spread": 49.744550000000004,
+    "empericalVariance": 19.837401999999997,
+    "variationCoefficient": 7.827079581267479
+  },
+  "speed-index": {
+    "average": 363.0756327213132,
+    "median": 387.3720810865497,
+    "standardDeviation": 67.98186169224363,
+    "minMax": {
+      "min": 236.6298,
+      "max": 422.9664521344764
+    },
+    "spread": 186.33665213447642,
+    "empericalVariance": 54.929739015170846,
+    "variationCoefficient": 18.723884382630718
+  },
+  "max-potential-fid": {
+    "average": 97.6,
+    "median": 146,
+    "standardDeviation": 49.10641505954186,
+    "minMax": {
+      "min": 16,
+      "max": 146
+    },
+    "spread": 130,
+    "empericalVariance": 44.879999999999995,
+    "variationCoefficient": 50.31394985608797
+  },
+  "cumulative-layout-shift": {
+    "average": 0.07068659500043778,
+    "median": 0.05318746782243236,
+    "standardDeviation": 0.034745219300485033,
+    "minMax": {
+      "min": 0.05309214867349619,
+      "max": 0.1401744866911829
+    },
+    "spread": 0.08708233801768672,
+    "empericalVariance": 0.02779515667629805,
+    "variationCoefficient": 49.1539015286701
+  },
+  "server-response-time": {
+    "average": 103.48120000000002,
+    "median": 103.426,
+    "standardDeviation": 0.48113632163868286,
+    "minMax": {
+      "min": 102.89,
+      "max": 104.304
+    },
+    "spread": 1.4140000000000015,
+    "empericalVariance": 0.3886400000000009,
+    "variationCoefficient": 0.4649504660157429
+  },
+  "interactive": {
+    "average": 297.58167999999995,
+    "median": 320.42449999999997,
+    "standardDeviation": 40.91117642755582,
+    "minMax": {
+      "min": 236.6298,
+      "max": 338.60735
+    },
+    "spread": 101.97755000000001,
+    "empericalVariance": 38.94788399999999,
+    "variationCoefficient": 13.747881397657217
+  },
+  "mainthread-work-breakdown": {
+    "average": 257.8574,
+    "median": 331.2040000000001,
+    "standardDeviation": 112.39136467825271,
+    "minMax": {
+      "min": 65.27399999999999,
+      "max": 374.6999999999997
+    },
+    "spread": 309.4259999999997,
+    "empericalVariance": 100.27951999999999,
+    "variationCoefficient": 43.586635356694345
+  },
+  "network-rtt": {
+    "average": 0.09390000000000001,
+    "median": 0.09315,
+    "standardDeviation": 0.004131948692808278,
+    "minMax": {
+      "min": 0.0885,
+      "max": 0.10110000000000001
+    },
+    "spread": 0.012600000000000014,
+    "empericalVariance": 0.003180000000000005,
+    "variationCoefficient": 4.400371344843745
+  },
+  "network-server-latency": {
+    "average": 16.8187,
+    "median": 18.3149,
+    "standardDeviation": 4.311225047825735,
+    "minMax": {
+      "min": 10.10735,
+      "max": 21.582900000000002
+    },
+    "spread": 11.475550000000002,
+    "empericalVariance": 3.946480000000001,
+    "variationCoefficient": 25.633521305604685
+  },
+  "metrics": {
+    "average": 297.6,
+    "median": 320,
+    "standardDeviation": 40.848990195597246,
+    "minMax": {
+      "min": 237,
+      "max": 339
+    },
+    "spread": 102,
+    "empericalVariance": 38.879999999999995,
+    "variationCoefficient": 13.726139178628106
+  },
+  "uses-long-cache-ttl": {
+    "average": 6397465,
+    "median": 6397465,
+    "standardDeviation": 0,
+    "minMax": {
+      "min": 6397465,
+      "max": 6397465
+    },
+    "spread": 0,
+    "empericalVariance": 0,
+    "variationCoefficient": 0
+  },
+  "total-byte-weight": {
+    "average": 6399488,
+    "median": 6399488,
+    "standardDeviation": 0,
+    "minMax": {
+      "min": 6399488,
+      "max": 6399488
+    },
+    "spread": 0,
+    "empericalVariance": 0,
+    "variationCoefficient": 0
+  },
+  "render-blocking-resources": {
+    "average": 46,
+    "median": 49,
+    "standardDeviation": 6.44980619863884,
+    "minMax": {
+      "min": 36,
+      "max": 53
+    },
+    "spread": 17,
+    "empericalVariance": 6,
+    "variationCoefficient": 14.021317823127912
+  },
+  "modern-image-formats": {
+    "average": 600,
+    "median": 600,
+    "standardDeviation": 0,
+    "minMax": {
+      "min": 600,
+      "max": 600
+    },
+    "spread": 0,
+    "empericalVariance": 0,
+    "variationCoefficient": 0
+  },
+  "uses-responsive-images": {
+    "average": 4920,
+    "median": 4920,
+    "standardDeviation": 0,
+    "minMax": {
+      "min": 4920,
+      "max": 4920
+    },
+    "spread": 0,
+    "empericalVariance": 0,
+    "variationCoefficient": 0
+  },
+  "dom-size": {
+    "average": 27,
+    "median": 27,
+    "standardDeviation": 0,
+    "minMax": {
+      "min": 27,
+      "max": 27
+    },
+    "spread": 0,
+    "empericalVariance": 0,
+    "variationCoefficient": 0
+  },
+  "total-blocking-time": {
+    "average": 44.62841666666667,
+    "median": 36.917100000000005,
+    "standardDeviation": 17.1454495825342,
+    "minMax": {
+      "min": 28.575500000000005,
+      "max": 68.39265
+    },
+    "spread": 39.81715,
+    "empericalVariance": 15.842822222222223,
+    "variationCoefficient": 38.41823408299465
+  },
+  "bootup-time": {
+    "average": 12.710250000000002,
+    "median": 12.664000000000001,
+    "standardDeviation": 0.7815837687030099,
+    "minMax": {
+      "min": 11.693000000000003,
+      "max": 13.820000000000002
+    },
+    "spread": 2.126999999999999,
+    "empericalVariance": 0.6787500000000009,
+    "variationCoefficient": 6.149239933935287
+  }
+}
