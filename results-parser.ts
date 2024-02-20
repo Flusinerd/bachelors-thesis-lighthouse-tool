@@ -89,3 +89,14 @@ function calculateVariationCoefficient(values: number[]) {
   const standardDeviation = calculateStandardDeviation(values)
   return (standardDeviation / average) * 100
 }
+
+export function resultToCsv({audits}: Result) {
+  const numericAudits = Object.entries(audits).sort((a, b) => a[0].localeCompare(b[0])).filter(([, audit]) => audit.numericValue !== undefined);
+  const header = numericAudits.map(([audit]) => audit).join(',');
+  const values = numericAudits.map(([, audit]) => audit.numericValue).join(',');
+
+  return {
+    header,
+    values,
+  }
+}

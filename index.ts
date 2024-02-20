@@ -2,11 +2,13 @@ import * as chromeLauncher from 'chrome-launcher'
 import * as cliProgress from 'cli-progress'
 import * as fs from 'fs/promises'
 import lighthouse, { Result, ScreenEmulationSettings, ThrottlingSettings } from 'lighthouse'
-import { parseResults, toCsv } from './results-parser'
+import { resultToCsv } from './results-parser'
 
 const targets = ['http://localhost:5173', 'http://localhost:3000']
-const pages = ['', 'products/00d66fc6-f325-4872-9526-90a341476f7e']
+const pages = ['']
+// const pages = ['', 'products/00d66fc6-f325-4872-9526-90a341476f7e']
 const apiDelay = 500;
+const runsPerPage = 10;
 
 /**
  * Adjustments needed for DevTools network throttling to simulate
@@ -86,10 +88,6 @@ const throttlingSettings: Record<string, { throttling: ThrottlingSettings, emula
   // Corresponds to "Dense 4G 25th percentile" in https://docs.google.com/document/d/1Ft1Bnq9-t4jK5egLSOc28IL4TvR-Tt0se_1faTA4KTY/edit#heading=h.bb7nfy2x9e5v
 }
 
-
-const runsPerPage = 5
-
-
 const chrome = await chromeLauncher.launch({ chromeFlags: ['--headless'] })
 
 const pageTargets = targets.map(target =>
@@ -120,9 +118,9 @@ for (const target of pageTargets) {
     const pageDir = `${dir}/${pageUrl.pathname}`
 
     await fs.mkdir(pageDir, { recursive: true })
-    const results: Result[] = [];
-
+    
     for (const [throttlingName, throttlingSetting] of Object.entries(throttlingSettings)) {
+      const results: Result[] = [];
       const throttlingDir = `${pageDir}/${throttlingName}`
       await fs.mkdir(throttlingDir, { recursive: true })
 
@@ -140,6 +138,7 @@ for (const target of pageTargets) {
           throttling: throttlingSetting.throttling,
           screenEmulation: throttlingSetting.emulation,
           formFactor: throttlingSetting.emulation.mobile ? 'mobile' : 'desktop',
+          disableFullPageScreenshot: true,
         })
         if (!runnerResult) {
           throw new Error('No runner result')
@@ -150,13 +149,19 @@ for (const target of pageTargets) {
         const reportPath = `${throttlingDir}/${i}.json`
         await fs.writeFile(reportPath, report)
       }
-      const statistics = parseResults(results)
-      const statisticsPath = `${throttlingDir}/statistics.json`
-      await fs.writeFile(statisticsPath, JSON.stringify(statistics, null, 2))
 
-      const csv = toCsv(statistics);
-      const csvPath = `${throttlingDir}/statistics.csv`;
-      await fs.writeFile(csvPath, csv, 'utf-8');
+      const csvReportPath = `${throttlingDir}/report.csv`
+      await fs.unlink(csvReportPath).catch(() => {});
+
+      for (let i = 0; i < results.length; i++) {
+        const { header, values } = resultToCsv(results[i]);
+        const contents = i === 0 ? `${header}\n${values}\n` : `${values}\n`
+        await fs.appendFile(csvReportPath, contents)
+      }
+
+      // const statistics = parseResults(results)
+      // const statisticsPath = `${throttlingDir}/statistics.json`
+      // await fs.writeFile(statisticsPath, JSON.stringify(statistics, null, 2))
 
       runBar.stop()
       bar.increment()
