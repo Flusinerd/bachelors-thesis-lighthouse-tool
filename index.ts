@@ -140,6 +140,13 @@ for (const target of pageTargets) {
           formFactor: throttlingSetting.emulation.mobile ? 'mobile' : 'desktop',
           disableFullPageScreenshot: true,
         })
+
+        if (!runnerResult || runnerResult.lhr.runtimeError ) {
+          // Rerun the test if there was a runtime error
+          i--;
+          continue;
+        }
+
         if (!runnerResult) {
           throw new Error('No runner result')
         }
