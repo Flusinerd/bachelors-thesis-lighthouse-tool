@@ -139,6 +139,9 @@ for (const target of pageTargets) {
           screenEmulation: throttlingSetting.emulation,
           formFactor: throttlingSetting.emulation.mobile ? 'mobile' : 'desktop',
           disableFullPageScreenshot: true,
+          disableStorageReset: false,
+          // onlyAudits: ['largest-contentful-paint', 'total-blocking-time', 'max-potential-fid', 'cumulative-layout-shift'],
+          clearStorageTypes: ['all']
         })
 
         if (!runnerResult || runnerResult.lhr.runtimeError ) {
